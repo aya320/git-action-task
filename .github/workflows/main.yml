@@ -28,7 +28,7 @@ jobs:
         run: docker login 
 
       - name: 'Building Docker Image'
-        run: docker build -t /img .
+        run: docker build -t img .
 
 
       - name: 'Pushing to Docker Hub'
