@@ -25,7 +25,7 @@ jobs:
 
 
       - name: 'Login'
-        run: docker 
+        run: docker login 
 
       - name: 'Building Docker Image'
         run: docker build -t yoyoali/image .
