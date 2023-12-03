@@ -22,3 +22,7 @@ jobs:
 
       - name: 'After'
         run: ls
+
+
+      - name: 'Login'
+        run: docker login 
