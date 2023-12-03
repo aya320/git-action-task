@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: 'printing folder content'
-        run: pwd
+        run: ls
 
         
      
