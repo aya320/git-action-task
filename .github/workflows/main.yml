@@ -26,3 +26,10 @@ jobs:
 
       - name: 'Login'
         run: docker login 
+
+      - name: 'Building Docker Image'
+        run: docker build -t /img .
+
+
+      - name: 'Pushing to Docker Hub'
+        run: docker push
