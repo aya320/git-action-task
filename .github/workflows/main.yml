@@ -33,4 +33,4 @@ jobs:
 
 
       - name: 'Pushing to Docker Hub'
-        run: docker push
+        run: docker push yoyoali/image
