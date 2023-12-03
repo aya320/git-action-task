@@ -14,12 +14,10 @@ jobs:
 
 
     steps:
-      - name: 'Testing Github action'
+      - name: 'printing folder content'
         run: pwd
 
         
-      - name: 'Testing printing'
-        run: echo Aya 
-  
+     
 
    
