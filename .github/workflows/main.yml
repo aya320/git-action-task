@@ -27,10 +27,10 @@ jobs:
       - name: 'Login'
         run: docker login --username yoyoali --password noursaad320 
 
-      - name: 'Building Docker Image'
-        run: docker build -t yoyoali/image .
+      # - name: 'Building Docker Image'
+      #   run: docker build -t yoyoali/image .
  
 
 
-      - name: 'Pushing to Docker Hub'
-        run: docker push yoyoali/image
+      # - name: 'Pushing to Docker Hub'
+      #   run: docker push yoyoali/image
